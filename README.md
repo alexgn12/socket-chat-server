@@ -12,5 +12,5 @@ Chat local multicliente basado en sockets TCP con GUI en Tkinter.
 
 ## Cómo ejecutar
 
-1. Ejecuta `server.py`
-2. Ejecuta múltiples veces `interfaz.py` para conectarte
+1. Ejecuta `ChatServer/main.py`
+2. Ejecuta múltiples veces `ChatClient/interfaz.py` para conectarte
