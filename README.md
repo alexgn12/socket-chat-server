@@ -27,7 +27,7 @@ Un chat local multicliente construido desde cero en Python utilizando sockets TC
 ---
 
 ## 📁 Estructura del proyecto
-
+```
 SocketChat/
 ├── ChatServer/
 │ └── main.py # Servidor con threading, nombres y logging
@@ -37,10 +37,7 @@ SocketChat/
 ├── logs.json # Archivo generado con eventos del servidor
 ├── README.md # Este archivo
 
-yaml
-Copiar
-Editar
-
+```
 ---
 
 ## ⚙️ Requisitos
@@ -60,11 +57,10 @@ Editar
 
 1. Ejecuta el **servidor**:
 
-```bash
+```
 python ChatServer/main.py
 En una o más terminales, ejecuta la interfaz gráfica del cliente:
-
-bash
+```
 Copiar
 Editar
 python ChatClient/interfaz.py
